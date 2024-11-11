@@ -1,9 +1,6 @@
 {
-    "redirects": [
-      { "source": "/", "destination": "/thought-loom", "permanent": true }
-    ],
     "rewrites": [
-      { "source": "/thought-loom", "destination": "/" }
+      { "source": "/thought-loom/:path*", "destination": "/:path*" }
     ]
   }
   
